@@ -18,6 +18,16 @@
 		8B7CBC412BCAAE060075D734 /* SongDetailsInterface in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CBC362BCAAE060075D734 /* SongDetailsInterface */; };
 		8B7CBC422BCAAE060075D734 /* TemporaryMainPackageInterface in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CBC372BCAAE060075D734 /* TemporaryMainPackageInterface */; };
 		8B7CBC432BCAAE060075D734 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 8B7CBC382BCAAE060075D734 /* Utilities */; };
+		8B7CBC452BCAAF1D0075D734 /* Analytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC442BCAAF1D0075D734 /* Analytics */; };
+		8B7CBC472BCAAF1D0075D734 /* AnalyticsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC462BCAAF1D0075D734 /* AnalyticsInterface */; };
+		8B7CBC492BCAAF1D0075D734 /* ArtistDetail in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC482BCAAF1D0075D734 /* ArtistDetail */; };
+		8B7CBC4B2BCAAF1D0075D734 /* ArtistDetailInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC4A2BCAAF1D0075D734 /* ArtistDetailInterface */; };
+		8B7CBC4D2BCAAF1D0075D734 /* CommonModels in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC4C2BCAAF1D0075D734 /* CommonModels */; };
+		8B7CBC4F2BCAAF1D0075D734 /* DependencyContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC4E2BCAAF1D0075D734 /* DependencyContainer */; };
+		8B7CBC512BCAAF1D0075D734 /* SongDetails in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC502BCAAF1D0075D734 /* SongDetails */; };
+		8B7CBC532BCAAF1D0075D734 /* SongDetailsInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC522BCAAF1D0075D734 /* SongDetailsInterface */; };
+		8B7CBC552BCAAF1D0075D734 /* TemporaryMainPackageInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC542BCAAF1D0075D734 /* TemporaryMainPackageInterface */; };
+		8B7CBC572BCAAF1D0075D734 /* Utilities in Frameworks */ = {isa = PBXBuildFile; productRef = 8B7CBC562BCAAF1D0075D734 /* Utilities */; };
 		8BD4811B2BC949890092D4B8 /* TemporaryMainTargetGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4811A2BC949890092D4B8 /* TemporaryMainTargetGateway.swift */; };
 		FBA9D05F2B7B936A00FDF616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9D05E2B7B936A00FDF616 /* AppDelegate.swift */; };
 		FBA9D0612B7B936A00FDF616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9D0602B7B936A00FDF616 /* SceneDelegate.swift */; };
@@ -91,6 +101,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7CBC552BCAAF1D0075D734 /* TemporaryMainPackageInterface in Frameworks */,
+				8B7CBC4B2BCAAF1D0075D734 /* ArtistDetailInterface in Frameworks */,
+				8B7CBC4F2BCAAF1D0075D734 /* DependencyContainer in Frameworks */,
+				8B7CBC572BCAAF1D0075D734 /* Utilities in Frameworks */,
+				8B7CBC532BCAAF1D0075D734 /* SongDetailsInterface in Frameworks */,
+				8B7CBC452BCAAF1D0075D734 /* Analytics in Frameworks */,
+				8B7CBC492BCAAF1D0075D734 /* ArtistDetail in Frameworks */,
+				8B7CBC472BCAAF1D0075D734 /* AnalyticsInterface in Frameworks */,
+				8B7CBC4D2BCAAF1D0075D734 /* CommonModels in Frameworks */,
+				8B7CBC512BCAAF1D0075D734 /* SongDetails in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +325,16 @@
 			);
 			name = ModularisationStarter;
 			packageProductDependencies = (
+				8B7CBC442BCAAF1D0075D734 /* Analytics */,
+				8B7CBC462BCAAF1D0075D734 /* AnalyticsInterface */,
+				8B7CBC482BCAAF1D0075D734 /* ArtistDetail */,
+				8B7CBC4A2BCAAF1D0075D734 /* ArtistDetailInterface */,
+				8B7CBC4C2BCAAF1D0075D734 /* CommonModels */,
+				8B7CBC4E2BCAAF1D0075D734 /* DependencyContainer */,
+				8B7CBC502BCAAF1D0075D734 /* SongDetails */,
+				8B7CBC522BCAAF1D0075D734 /* SongDetailsInterface */,
+				8B7CBC542BCAAF1D0075D734 /* TemporaryMainPackageInterface */,
+				8B7CBC562BCAAF1D0075D734 /* Utilities */,
 			);
 			productName = ModularisationStarter;
 			productReference = FBA9D05B2B7B936A00FDF616 /* ModularisationStarter.app */;
@@ -587,6 +617,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ModularisationStarter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -614,6 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ModularisationStarter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -699,6 +731,49 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B7CBC442BCAAF1D0075D734 /* Analytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Analytics;
+		};
+		8B7CBC462BCAAF1D0075D734 /* AnalyticsInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnalyticsInterface;
+		};
+		8B7CBC482BCAAF1D0075D734 /* ArtistDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArtistDetail;
+		};
+		8B7CBC4A2BCAAF1D0075D734 /* ArtistDetailInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArtistDetailInterface;
+		};
+		8B7CBC4C2BCAAF1D0075D734 /* CommonModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonModels;
+		};
+		8B7CBC4E2BCAAF1D0075D734 /* DependencyContainer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DependencyContainer;
+		};
+		8B7CBC502BCAAF1D0075D734 /* SongDetails */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SongDetails;
+		};
+		8B7CBC522BCAAF1D0075D734 /* SongDetailsInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SongDetailsInterface;
+		};
+		8B7CBC542BCAAF1D0075D734 /* TemporaryMainPackageInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TemporaryMainPackageInterface;
+		};
+		8B7CBC562BCAAF1D0075D734 /* Utilities */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utilities;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBA9D0532B7B936A00FDF616 /* Project object */;
 }
